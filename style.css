@@ -361,3 +361,7 @@ tr:nth-child(even) {
   color: white;
 }
 */
+
+#payPalPara {
+  padding-top: 20px;
+}
