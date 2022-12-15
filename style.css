@@ -241,3 +241,7 @@ a:visited {
 #about_me {
   padding-bottom: 50px;
 }
+
+.videoContainer {
+  padding: 50px;
+}
