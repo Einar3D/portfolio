@@ -242,6 +242,7 @@ a:visited {
   padding-bottom: 50px;
 }
 
-.videoContainer {
-  padding: 50px;
+iframe {
+  display: block;
+  margin: 60px;
 }
