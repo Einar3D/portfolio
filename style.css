@@ -35,7 +35,7 @@ body {
 }
 
 #lightThemeDiv{
-  margin-top: 100px;
+  margin-top: 60px;
   display: block;
 }
 
@@ -66,42 +66,6 @@ margin: auto;
 padding-top: 30px;
 padding-bottom: 30px;
 }
-
-/* Add a black background color to the top navigation */
-.topnav {
-  overflow: hidden;
-  margin-top: 15px;
-}
-
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  /*color: #f2f2f2;*/
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-#caption1 {
-  margin-top: 15px;
-}
-
-
 
 a {
   color: #63e5ff;
@@ -273,24 +237,14 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-#payPalPara {
-  padding-top: 20px;
-}
-
-#about_me {
-  padding-bottom: 50px;
-}
-
-iframe {
-  display: block;
-  margin: 60px;
-}
-
 .dnLwds {
   margin-top: 130px;
 }
 
+#turbosquid {
+  margin-top: 40px;
+}
+
 #paypal {
-  margin-top: 50px;
+  margin-top: 60px;
 }
