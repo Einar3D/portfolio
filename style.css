@@ -50,10 +50,8 @@ padding-top: 15px;
 
 h2 {
 font-weight: 100;
-text-align: center;
 font-size: 27px;
 width: 50%;
-margin: auto;
 padding-top: 15px;
 }
 
@@ -247,7 +245,6 @@ img.hover-shadow {
 
 #contact-details {
   margin-top: 100px;
-  text-align: center;
 }
 
 #intro {
