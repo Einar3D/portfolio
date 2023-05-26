@@ -251,3 +251,7 @@ img.hover-shadow {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
+#main-header {
+max-width: 200px;
+}
