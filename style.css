@@ -4,7 +4,7 @@ body {
   color: white;
   font-size: 25px;
   letter-spacing: 3px;
-  font-family: Garamond;
+  font-family: Arial;
   }
 
 .light-mode {
@@ -253,5 +253,5 @@ img.hover-shadow {
 }
 
 #main-header {
-max-width: 200px;
+max-width: 250px;
 }
