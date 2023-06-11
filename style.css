@@ -46,6 +46,7 @@ font-size: 40px;
 width: 50%;
 margin: auto;
 padding-top: 15px;
+margin-bottom: 50px;
 }
 
 h2 {
@@ -240,7 +241,7 @@ img.hover-shadow {
 }
 
 #paypal {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 #contact-details {
