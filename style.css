@@ -242,7 +242,11 @@ img.hover-shadow {
 }
 
 #paypal {
-  margin-top: 50px;
+  margin-top: 30px;
+}
+
+#donate {
+  margin-bottom: 30px;
 }
 
 #contact-details {
@@ -308,6 +312,3 @@ th, td {
 
 .btn:hover {opacity: 1}
 
-.downloadLinks {
-  margin-bottom: 30px;
-}
