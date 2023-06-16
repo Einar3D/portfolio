@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mark's graphic design website</title>
+
+	  <link rel="stylesheet" type="text/css" href="style.css">
+	  <script type="text/javascript" src="indexJS.js" defer></script>
+</head>
+<body>
+
+	<h1>
+  <img id="main-header" src="mark-design-complete.png">
+</h1>
+
+<div class="pill-nav">
+  <a class="active" href="index.html">Home</a>
+  <a href="images-2.html">More images</a>
+  <a href="about-me.html">About Me</a>
+</div>
+
+<div class="row">
+	    <div class="column">
+    <img src="shredder-6.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  	    <div class="column">
+    <img src="sub-zero-5.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+        <div class="mySlides">
+      <div class="numbertext">1 / 2</div>
+      <img src="shredder-6.jpg" style="width:100%">
+    </div>
+
+        <div class="mySlides">
+      <div class="numbertext">2 / 2</div>
+      <img src="sub-zero-5.png" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+   <div class="column">
+      <img class="demo cursor" src="shredder-6.jpg" style="width:100%" onclick="currentSlide(1)" alt="Shredder, the villain from the 1987 Teenage Mutant Ninja Turtles cartoon.  It was a thrill to see the episodes are on Youtube and they are funnier than I remember.">
+    </div>
+
+      <div class="column">
+      <img class="demo cursor" src="sub-zero-5.png" style="width:100%" onclick="currentSlide(2)" alt="Test Your Might was an entertaining side game in the Mortal Kombat 1 arcade.  I could only beat the wood level but it is very funny to see the more difficult materials.">
+    </div>
+</body>
+</html>
