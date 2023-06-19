@@ -6,7 +6,6 @@
 	<title>Mark's graphic design website</title>
 
 	  <link rel="stylesheet" type="text/css" href="style.css">
-	  <script type="text/javascript" src="indexJS.js" defer></script>
 </head>
 <body>
 
@@ -14,48 +13,39 @@
   <img id="main-header" src="mark-design-complete.png">
 </h1>
 
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="guile.jpg" style="width:100%">
+    <div class="downloadLinks">
+  <a href="guile.jpg">Full size image</a>
+</div>
+
+    <img src="mk-one.jpg" style="width:100%">
+        <div class="downloadLinks">
+  <a href="mk-one.jpg">Full size image</a>
+</div>
+
+    <img src="thunder-bird.jpg" style="width:100%">
+        <div class="downloadLinks">
+  <a href="thunder-bird.jpg">Full size image</a>
+</div>
+
+<h1>Thank you for visiting my website</h1>
+
+<section id="donate">
+<form id="paypal" action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="37QDTGWL9UE2U" />
+<input id="paypal" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_CO/i/scr/pixel.gif" width="1" height="1" />
+</form>
+</section>
+
 <div class="pill-nav">
   <a class="active" href="index.html">Home</a>
-  <a href="images-2.html">More images</a>
-  <a href="about-me.html">About Me</a>
+  <a href="images-2.html">More Images</a>
 </div>
 
-<div class="row">
-	    <div class="column">
-    <img src="shredder-5.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
-  </div>
-  	    <div class="column">
-    <img src="sub-zero-5.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
-  </div>
-</div>
 
-<div id="myModal" class="modal">
-  <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="modal-content">
-
-        <div class="mySlides">
-      <div class="numbertext">1 / 2</div>
-      <img src="shredder-5.jpg" style="width:100%">
-    </div>
-
-        <div class="mySlides">
-      <div class="numbertext">2 / 2</div>
-      <img src="sub-zero-5.png" style="width:100%">
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-      <p id="caption"></p>
-    </div>
-
-   <div class="column">
-      <img class="demo cursor" src="shredder-5.jpg" style="width:100%" onclick="currentSlide(1)" alt="Shredder, the villain from the 1987 Teenage Mutant Ninja Turtles cartoon.  It was a thrill to see the episodes are on Youtube and they are funnier than I remember.">
-    </div>
-
-      <div class="column">
-      <img class="demo cursor" src="sub-zero-5.png" style="width:100%" onclick="currentSlide(2)" alt="Test Your Might was an entertaining side game in the Mortal Kombat 1 arcade.  I could only beat the wood level but it is very funny to see the more difficult materials.">
-    </div>
 </body>
 </html>
