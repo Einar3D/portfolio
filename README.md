@@ -1,2 +1,1 @@
-# Portfolio
-my Portfolio website
+3D models, graphic design, and front end web development
